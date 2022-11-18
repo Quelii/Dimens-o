@@ -1,0 +1,20 @@
+
+#include<stdio.h>
+
+int main(){  
+    
+    int dimensao1, dimensao2, area, potencia;
+    
+    printf("Difite a Primeira dimensao \n");
+    scanf("%d",& dimensao1);
+    
+    printf("Difite a Swgunda dimensao \n");
+    scanf("%d",& dimensao2);
+    
+    area = dimensao2 * dimensao1;
+    
+    potencia = area * 18;
+    
+    printf("A potencia que deve ser utilizada eh: %d W ", potencia);
+
+}
